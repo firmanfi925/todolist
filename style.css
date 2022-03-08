@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.header {
+    background-color: tomato;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+}
+
+.header input {
+    font-size: 28px;
+    margin: 0;
+    border: none;
+}
+
+.header button {
+    font-size: 24px;
+    padding: 2px;
+    margin-left: -5px;
+    background-color: darkgrey;
+    color: white;
+    font-weight: 1000;
+    border: none;
+    cursor: pointer;
+}
+
+.header button:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.item-todo {
+    background-color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-todo img:hover{
+    cursor: pointer;
+}
+
+.item-todo:nth-child(even){
+    background-color: aquamarine;
+}
